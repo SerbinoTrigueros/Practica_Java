@@ -6,6 +6,7 @@ package linkedlist_practica;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  *
@@ -21,6 +22,9 @@ public class LinkedList_Practica {
        ArrayList<String> listaNumeros = new ArrayList<>();
        LinkedList<String> listaNombres = new LinkedList<>();
        
+       var listaLetras = List.of("A","B","C");
+       listaLetras.forEach(System.out::println);
+       
        //se va agregar datos a la lista 
        listaNombres.add("Christian");
        listaNombres.add("Serbino");
@@ -33,7 +37,6 @@ public class LinkedList_Practica {
        listaNumeros.add("uno");
        listaNumeros.add("dos");
        listaNumeros.add("tres");
-       
         System.out.println("El contenido de la LinkedList es: ");
         for (String lista : listaNombres){
         
