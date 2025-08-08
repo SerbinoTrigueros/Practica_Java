@@ -4,6 +4,7 @@
  */
 package linkedlist_practica;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**
@@ -17,6 +18,7 @@ public class LinkedList_Practica {
      */
     public static void main(String[] args) {
         //se crea la lista de tipo linkedlist
+       ArrayList<String> listaNumeros = new ArrayList<>();
        LinkedList<String> listaNombres = new LinkedList<>();
        
        //se va agregar datos a la lista 
@@ -26,6 +28,11 @@ public class LinkedList_Practica {
        
        listaNombres.addFirst("Inicio---->");
        listaNombres.addLast("<-----Final");
+       
+       
+       listaNumeros.add("uno");
+       listaNumeros.add("dos");
+       listaNumeros.add("tres");
        
         System.out.println("El contenido de la LinkedList es: ");
         for (String lista : listaNombres){
@@ -44,6 +51,9 @@ public class LinkedList_Practica {
         
         
         //gene 
+        
+       
+        
         }
         
     }
