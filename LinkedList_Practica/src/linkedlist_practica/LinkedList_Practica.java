@@ -41,6 +41,9 @@ public class LinkedList_Practica {
         for (String lista : listaNombres){
             
         System.out.println("la lista modificada es ---> " + lista);
+        
+        
+        //gene 
         }
         
     }
