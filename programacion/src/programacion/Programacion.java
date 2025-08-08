@@ -4,6 +4,8 @@
  */
 package programacion;
 
+import java.util.List;
+
 /**
  *
  * @author serbi
@@ -16,6 +18,14 @@ public class Programacion {
     public static void main(String[] args) {
         System.out.println(" mi primera practica usando repositorio :D ");
         System.out.println(" The Neighbourhood - Sweater Weather ");
-    }
-    
+        
+        var lista_Carros = List.of("BMW", "AUDI","NISSAN","TOYOTA");
+        lista_Carros.forEach(System.out::println);
+        
+        System.out.println("");
+        
+        for (var listas: lista_Carros){
+            System.out.println(listas);
+        }
+    }   
 }
